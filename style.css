@@ -1,9 +1,80 @@
 
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 
 .header{
-    
+    display:flex;
+    justify-content:space-around;
+    padding: 10px;
 
+}
+.header-style{
+    background-color:#1F2937;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 900;
+    color:#F9FAF8;
 }
 .navigation-menu{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+    gap:20px;
+    list-style-type:none;
+    padding: 10px;
+    margin: 0;
+}
+.header-content{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color:#F9FAF8;
+    padding: 70px;
+    
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 6px;
+    
+}
+.page-title{
+    font-size: 48px;
+    font-weight: 900;
+    width: 300px;
+    
+}
+.page-info{
+   font-size: 18px;
+   width: 400px;
+   color: #E5E7EB;
+}
+.image-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+    width: 500px;
+    height: 200px;
+}
+
+.signup-button{
+background-color:#3882f6;
+border-radius: 8px;
+color: #F9FAF8;
+font-size: 16px;
+height:35px;
+width: 100px;
+
 }
