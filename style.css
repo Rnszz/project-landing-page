@@ -131,3 +131,38 @@ width: 100px;
     border-radius: 10px;
 }
 
+
+
+.qoute{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+.qoute-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 800px;
+height: 300px;
+font-size: 36px;
+color:#1F2937;
+font-weight: 300;
+
+}
+
+.qoute-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    height: 50px;
+    width: 300px;
+    font-size: 24px;
+    color:#1F2937;
+    font-weight: 900;
+
+}
