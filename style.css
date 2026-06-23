@@ -1,5 +1,7 @@
 body{
     font-family: Roboto,'Segoe UI',Ubuntu, Cantarell,'Open Sans',sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 a{
     text-decoration: none;
@@ -46,7 +48,7 @@ a{
     align-items: center;
     color:#F9FAF8;
     padding: 60px;
-    gap: 50px;
+    gap: 145px;
     
 }
 
@@ -165,4 +167,53 @@ font-weight: 300;
     color:#1F2937;
     font-weight: 900;
 
+}
+
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.action-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 1200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.action-call{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.action-text{
+    font-size: 24px;
+}
+
+.action-signup-button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    height:40px;
+    width:130px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 50px;
 }
